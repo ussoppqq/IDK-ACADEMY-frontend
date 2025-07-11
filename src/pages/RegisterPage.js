@@ -28,7 +28,7 @@ function RegisterPage() {
     }
 
     try {
-      await axios.post('ussoppqq.redirectme.net/api/auth/register', {
+      await axios.post('https://ussoppqq.redirectme.net/api/auth/register', {
         email,
         password,
         name
